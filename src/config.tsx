@@ -46,10 +46,10 @@ export const CONFIG: SiteConfig = {
 	},
 	name: "Hartface",
 	headshot: "/pfp.jpg",
-	title: "Technical Artist & Pipeline Developer",
+	title: "Add-on Developer & Technical Artist",
 	description: `I'm Hartface, an add-on developer and technical artist.
 	I provide solutions for problems and make things more efficient.
-	I would rather like you to look at my work below.`,
+	I would like you to look at my work below.`,
 	socials: [
 		{
 			platform: "GitHub",
