@@ -1,4 +1,5 @@
 import { GithubIcon } from "@/components/icons/github";
+import { EmailIcon } from "@/components/icons/email";
 import type React from "react";
 
 export type Image = {
@@ -46,15 +47,19 @@ export const CONFIG: SiteConfig = {
 	},
 	name: "Hartface",
 	headshot: "/pfp.jpg",
-	title: "Add-on Developer & Technical Artist",
-	description: `I'm Hartface, an add-on developer and technical artist.
-	I provide solutions for problems and make things more efficient.
-	I would like you to look at my work below.`,
+	title: "Add-on Developer & Aspiring Technical Artist",
+	description: `I'm Hartface, an add-on developer and aspiring technical artist.
+	I enjoy helping others and this is the home to my work and some things I write.`,
 	socials: [
 		{
 			platform: "GitHub",
 			link: "https://github.com/hartface",
 			icon: <GithubIcon />,
+		},
+		{
+			platform: "Email",
+			link: "mailto:hartfacedev@gmail.com",
+			icon: <EmailIcon />,
 		}
 	],
 	categories: [
@@ -62,6 +67,11 @@ export const CONFIG: SiteConfig = {
 			title: "All",
 			page: undefined,
 			href: "/posts",
+		},
+		{
+			title: "Projects",
+			page: "projects",
+			href: "/posts/projects",
 		},
 		{
 			title: "Add-ons",
@@ -73,5 +83,10 @@ export const CONFIG: SiteConfig = {
 			page: "blog",
 			href: "/posts/blog",
 		},
-	],
+		{
+			title: "Other",
+			page: "other",
+			href: "/posts/other",
+		}
+	]
 };
