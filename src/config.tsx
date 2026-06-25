@@ -1,5 +1,6 @@
 import { GithubIcon } from "@/components/icons/github";
 import { EmailIcon } from "@/components/icons/email";
+import { XIcon } from "@/components/icons/x";
 import type React from "react";
 
 export type Image = {
@@ -51,6 +52,11 @@ export const CONFIG: SiteConfig = {
 	description: `I'm Hartface, an add-on developer and aspiring technical artist.
 	I enjoy helping others and this is the home to my work and some things I write.`,
 	socials: [
+		{
+			platform: "X",
+			link: "https://x.com/hartfacedev",
+			icon: <XIcon />,
+		},
 		{
 			platform: "GitHub",
 			link: "https://github.com/hartface",
